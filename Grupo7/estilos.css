@@ -1,0 +1,124 @@
+/* === PALETA === */
+:root {
+  --pastel-blue: #A7C7E7;
+  --pastel-green: #B7E4C7;
+  --pastel-yellow: #FFF3B0;
+  --pastel-pink: #F6C5C5;
+  --white-warm: #FFFDF7;
+}
+
+/* === BASE === */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  scroll-behavior: smooth;
+  background-color: var(--white-warm);
+}
+
+h1, h2, h3, h4 {
+  color: #2a2a2a;
+}
+
+/* === NAVBAR === */
+.pastel-navbar {
+  background-color: var(--pastel-blue);
+}
+
+.navbar-brand, .nav-link {
+  color: #222 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #555 !important;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* === CABECERAS === */
+.bg-pastel-blue { background-color: var(--pastel-blue); }
+.bg-pastel-green { background-color: var(--pastel-green); }
+.bg-pastel-yellow { background-color: var(--pastel-yellow); }
+.bg-pastel-pink { background-color: var(--pastel-pink); }
+
+/* === BOTONES === */
+.btn-pastel {
+  background-color: var(--pastel-pink);
+  color: #222;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-pastel:hover {
+  background-color: #ffafaf;
+  transform: scale(1.05);
+}
+
+/* Animaciones */
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-8px); }
+  60% { transform: translateY(-4px); }
+}
+
+/* === TARJETAS === */
+.pastel-card {
+  background-color: var(--white-warm);
+  border: 2px solid #eee;
+  border-radius: 12px;
+  transition: 0.4s;
+}
+
+.pastel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* === TIMELINE === */
+.timeline {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 1.5rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 25px;
+  width: 4px;
+  background: var(--pastel-blue);
+  height: 100%;
+}
+
+.timeline-item {
+  margin-bottom: 2rem;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline-item::before {
+  content: "⬤";
+  color: var(--pastel-pink);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* === FOOTER === */
+.pastel-footer {
+  background-color: var(--pastel-yellow);
+  color: #333;
+}

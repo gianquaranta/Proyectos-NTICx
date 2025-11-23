@@ -1,0 +1,133 @@
+body {
+  background-color: #5a5a5a;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+}
+
+.card {
+  background-color: #3c3c3c;
+  border: none;
+  border-radius: 15px;
+  color: #ffffff;
+  width: 100%;
+  max-width: 600px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.titulo {
+  color: #ad3434;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.autores {
+  font-size: 1.2rem;
+  color: #e1e1e1;
+  margin-bottom: 10px;
+}
+
+.descripcion {
+  font-size: 1rem;
+  color: #cccccc;
+  margin-bottom: 25px;
+}
+
+.boton-redireccion {
+  background-color: #ad3434;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.boton-redireccion:hover {
+  background-color: #a31414;
+  transform: scale(1.05);
+  color: white;
+}
+
+/* Animación suave de entrada */
+.fade-in {
+  opacity: 0;
+  transform: translateY(15px);
+  animation: aparecer 1.2s ease forwards;
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --- Estilos generales para todas las páginas --- */
+body {
+  background-color: #5a5a5a;
+  color: #ffffff;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.titulo-principal {
+  color: #ad3434;
+  font-weight: 700;
+}
+
+.main-container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+/* --- Secciones de contenido --- */
+.card-seccion {
+  background-color: #3c3c3c;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.card-seccion:hover {
+  transform: scale(1.02);
+}
+
+.titulo-seccion {
+  color: #ad3434;
+  margin-bottom: 15px;
+}
+
+.texto-seccion {
+  color: #ffffff;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* --- Botón final --- */
+.boton-final {
+  display: inline-block;
+  margin-top: 15px; /* espacio entre el h4 y el botón */
+  background-color: #ad3434;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 28px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.boton-final:hover {
+  background-color: #a31414;
+  transform: scale(1.05);
+  color: white;
+}

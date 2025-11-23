@@ -1,0 +1,19 @@
+/* Cambiar color de fondo */
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Títulos más llamativos */
+h1 {
+    color: rgb(25, 0, 255);
+    text-align: center;
+}
+
+.hola{
+    background-color: rgb(156, 229, 214);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}

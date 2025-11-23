@@ -1,0 +1,75 @@
+
+/* index y pagina2 */
+body {
+    background-color: lab(58.09% -18.37 -28.67 / 0.445); 
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+    color: #5a5858;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* pagina 3 */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    background: lab(58.09% -18.37 -28.67 / 0.445); 
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Títulos index/pagina2 */
+h1 {
+    color: #5a5858;
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+/* cuadrado del margen */
+h2, h3 {
+    margin-top: 30px;
+    border-left: 4px solid #5a5858;
+    padding-left: 10px;
+}
+
+/* enlaces */
+a {
+    color: #16a34a; /* Verde moderno */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+/* enlaces apretando*/
+a:hover {
+    color: #12813b; /* Rojo más intenso */
+    text-shadow: 0 0 5px rgba(220, 38, 38, 0.4);
+}
+
+/* Botones (si los usas) */
+button, .btn {
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+}
+
+/* Mejor apariencia para párrafos */
+p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* Enlaces dentro de párrafos */
+p a {
+    text-decoration: underline dotted;
+}
