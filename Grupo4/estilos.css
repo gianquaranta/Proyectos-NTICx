@@ -1,0 +1,22 @@
+/* Cambiar color de fondo */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Títulos más llamativos */
+h1 {
+    color: rgb(0, 77, 41);
+    text-align: center;
+}
+
+/* Enlaces */
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
